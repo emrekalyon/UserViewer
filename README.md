@@ -24,24 +24,24 @@ For more information
 There is no need any configuration to run.
 
 ### Endpoints
-There are two endpoint. You must fill "request-user-id" parameter in Header.  
+There are two endpoint. You must fill "request-user-id" parameter in Header.   <br />
 
- 1. Add New View Information
+ 1. Add New View Information <br />
 
-	Url : http://localhost:8080/user-views
-	Method: POST
-	Request Body: 
+	Url : http://localhost:8080/user-views <br />
+	Method: POST <br />
+	Request Body:  <br />
 			`{"viewerId" : 1,  viewedUserId" : 2}`
-	Body Description:
-	   viewerId -> which user view the other user's profile
-	   viewedUserId ->  userId is viewed by viewerId
+	Body Description: <br />
+	   viewerId -> which user view the other user's profile <br />
+	   viewedUserId ->  userId is viewed by viewerId <br />
 
- 2.  Get Viewer List
-	Url : http://localhost:8080/user-views/{userId}/viewers
-	Method: GET
-	Response Body: 
-		  ```json
-		  {
+ 2.  Get Viewer List <br />
+	Url : http://localhost:8080/user-views/{userId}/viewers <br />
+	Method: GET <br />
+	Response Body: <br />
+
+		  ``` {
 		   "userViews":[
 		      {
 		         "viewId":46,
@@ -59,7 +59,7 @@ There are two endpoint. You must fill "request-user-id" parameter in Header.
 		      }
 		   ]
 		}
-		```
+		
 
 ### Questions in Document
 1. Do you delete any data from the database?
