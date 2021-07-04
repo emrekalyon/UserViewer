@@ -40,7 +40,8 @@ There are two endpoint. You must fill "request-user-id" parameter in Header.
 	Url : http://localhost:8080/user-views/{userId}/viewers
 	Method: GET
 	Response Body: 
-		  `{
+		  ```json
+		  {
 		   "userViews":[
 		      {
 		         "viewId":46,
@@ -57,7 +58,8 @@ There are two endpoint. You must fill "request-user-id" parameter in Header.
 		         "viewDate":"2021-07-04T21:15:59.731492"
 		      }
 		   ]
-		}`
+		}
+		```
 
 ### Questions in Document
 1. Do you delete any data from the database?
